@@ -1,8 +1,7 @@
 import isHTTPS from 'is-https'
+import { hasProtocol } from 'ufo'
 import { localeMessages, options } from './options'
 import { formatMessage } from './utils-common'
-
-const hasProtocol = url => url.startsWith('http://') || url.startsWith('https://')
 
 /** @typedef {import('../../types/internal').ResolvedOptions} ResolvedOptions */
 

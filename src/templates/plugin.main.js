@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
-import { isEqual as isURLEqual, joinURL } from '~i18n-ufo'
+import { isEqual as isURLEqual, joinURL } from 'ufo'
 import { klona } from '~i18n-klona'
 import { nuxtI18nHead } from './head-meta'
 import { Constants, nuxtOptions, options } from './options'
